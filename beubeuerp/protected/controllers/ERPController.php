@@ -8,7 +8,7 @@ class ERPController extends Controller {
 	public $layout = '/layouts/columnAdmin'; //设置调用的布局模板
 	public $ret_msg='';//错误信息
 	public $login_type = false;//是否C#登录
-	public $Website_template='SKC9';//调用网站模版类型
+	public $Website_template='SKC11';//调用网站模版类型
 	
 	//不登陆可访问
 	public $interface_arr=array(
