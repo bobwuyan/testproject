@@ -1,0 +1,18 @@
+.CutOut_rRightUp,.CutOut_rLeftUp,.CutOut_rleftDown,.CutOut_rRightDown{
+	position:absolute;
+	background:#C00;
+	width:7px;
+	height:7px;
+	z-index:5;
+	font-size:0;
+}
+
+.CutOut_rleftDown,.CutOut_rRightUp{cursor:ne-resize;}
+.CutOut_rRightDown,.CutOut_rLeftUp{cursor:nw-resize;}
+.CutOut_rleftDown{left:-4px;bottom:-4px;}
+.CutOut_rRightUp{right:-4px;top:-4px;}
+.CutOut_rRightDown{right:-4px;bottom:-4px;}
+.CutOut_rLeftUp{left:-4px;top:-4px;}
+
+.CutOut_li_img_box_class{position: absolute; height: 268px; width: 268px; top: 0px; left: 0px;}
+.CutOut_li_img_box_border_class{border:1px solid #000000;  top:0; left:0;}
